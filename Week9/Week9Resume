@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bria Pickel-Fridman Resume</title>
+    <meta charset="UTF-8">
+    <link href="Week9.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Bria Pickel-Fridman</h1>
+    <div id="header">
+        <h3>bpickel@pratt.edu | <a href="https://www.linkedin.com/in/bria-pickel-fridman/">LinkedIn</a></h3>
+    </div>
+    
+    <div id="resume">
+    <h2>Related Experience</h2>
+    <h3>Senior Collection Information Analyst</h3>
+        <p>The Metropolitan Museum of Art | New York, NY (Remote Hybrid) | April 2023 - present</p>
+        <ul>
+            <li>Audit collection database records daily to ensure accuracy and consistency with 
+Museum cataloging standards.</li>
+            <li>Create and maintain reports for various forms of documentation across the Museum 
+using Crystal Reports and SSRS.</li>
+            <li>Implement data standards and organize data cleanup activities with department 
+representatives.</li>
+            <li>Host TMS training, office hours, and demos  for museum staff, interns, and volunteers 
+as part of the museum onboarding process and as needed.</li>
+            <li>Create new TMS user accounts and assign/update user security settings as appropriate 
+for staff members as necessary.</li>
+            <li>Work directly with curatorial cataloging staff, understanding needs and helping to 
+develop internal workflows for efficient and effective cataloging practice.</li>
+            <li>Assist in providing first level support to museum staff regarding use of TMS.</li>
+            <li>Conduct regression testing, communicate with the Information Technology department, 
+and plan for system upgrades.</li>
+            <li>Collaborate with colleagues to implement new workflows and museum-wide standards.</li>            
+        </ul>
+
+<h3>Collection and Exhibitions Information Specialist</h3>
+<p>Solomon R. Guggenheim Museum | New York, NY (Remote Hybrid) | Jan. 2022 - March 2023</p>
+        <ul>
+            <li>Assign user security settings as needed for staff members and update The Museum 
+System (TMS) security groups as necessary acting as System Administrator </li>
+            <li>Manage multiple projects in a fast-paced environment with excellent attention to 
+detail. </li>
+            <li>Execute data entry and data cleaning projects as needed. </li>
+            <li>Research and implement museum cataloging standards, controlled vocabularies, and 
+digital preservation standards. </li>
+            <li>Lead new hire, intern, and department wide TMS trainings through Microsoft Teams, 
+Zoom, and on-site regularly. </li>
+            <li>Build data entry processes for projects concerning demographic metrics collaborating
+with a DEAI subcommittee. </li>
+            <li>Collaborate with the Director of IT to create an action plan for building new TMS 
+reports and supporting current ones. </li>
+        </ul>
+    </div>
+
+    <div id="rules">
+        Please note that the lecture hall observes the following rules:
+        <ol>
+            <li>Silence all electronic devices</li>
+            <li>No messy foods or beverages</li>
+            <li>No pets allowed</li>
+        </ol>
+    </div>
+
+    <div id="work">
+        <p>Here is a sample of the research and teaching work that this person has done in the past:</p>
+        <table>
+            <tr>
+                <th>
+                    Research
+                </th>
+                <th>
+                    Teaching
+                </th>
+                <th>
+                    Other</th>
+            </tr>
+            <tr>
+                <td>Principle investigator - Project Z</td>
+                <td>INFO 654</td>
+                <td>Pet owner</td>
+            </tr>
+            <tr>
+                <td>Co-author - Project Y</td>
+                <td>INFO 690</td>
+                <td>Animal shelter volunteer</td>
+            </tr>
+            <tr>
+                <td>Co-author - Project Z</td>
+                <td>INFO 699</td>
+                <td>Food bank volunteer</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
