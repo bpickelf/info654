@@ -55,41 +55,61 @@ reports and supporting current ones. </li>
         </ul>
     </div>
 
-    <div id="rules">
-        Please note that the lecture hall observes the following rules:
+    <div id="resume">
+        <h3>Education</h3>
         <ol>
-            <li>Silence all electronic devices</li>
-            <li>No messy foods or beverages</li>
-            <li>No pets allowed</li>
+            <li>Pratt Institute Brooklyn, NY | Fall 2024 - Spring 2027
+MS Museum and Digital Culture
+</li>
+            <li>Columbia Business School | Sept. 2022 - Oct 2022
+	Museum Leadership Program (MLP) Certificate in Leadership
+</li>
+            <li>Harvard Business School Online (Remote) | Feb 2021 - June 2021
+	Credentials of Readiness (CORe) Certificate in Business
+</li>
+            <li>Pratt Institute Brooklyn, NY | Fall 2017 - Fall 2020
+BFA in History of Art and Design, Museum and Gallery Practices Minor, President’s List, GPA 3.711
+</li>
         </ol>
     </div>
 
-    <div id="work">
-        <p>Here is a sample of the research and teaching work that this person has done in the past:</p>
+    <div id="skills">
+<h3>Skills</h3>
+        <p>Here is a sample of my professional skills:</p>
         <table>
             <tr>
-                <th>
-                    Research
-                </th>
-                <th>
-                    Teaching
-                </th>
-                <th>
-                    Other</th>
+                <th>Technical Skills</th>
+                <th>Software Skills</th>
+                <th>Soft Skills</th>
             </tr>
             <tr>
-                <td>Principle investigator - Project Z</td>
-                <td>INFO 654</td>
-                <td>Pet owner</td>
+                <td>Research</td>
+                <td>SQL Server Reporting Services (SSRS)</td>
+                <td>Teamwork</td>
             </tr>
             <tr>
-                <td>Co-author - Project Y</td>
-                <td>INFO 690</td>
-                <td>Animal shelter volunteer</td>
+                <td>Data Entry</td>
+                <td>Crystal Reports</td>
+                <td>Communication</td>
             </tr>
             <tr>
-                <td>Co-author - Project Z</td>
-                <td>INFO 699</td>
+                <td>Cataloging</td>
+                <td>Confluence</td>
+                <td>Sales Experience</td>
+            </tr>
+            <tr>
+                <td>Budgeting & Expense Tracking</td>
+                <td>Jira HelpDesk</td>
+                <td>Public Speaking</td>
+            </tr>
+            <tr>
+                <td>Art History</td>
+                <td>Microsoft Office</td>
+                <td>Problem Solving</td>
+            </tr>
+            <tr>
+                <td>End User Training</td>
+                <td>Collection Management Systems (CMS)</td>
                 <td>Food bank volunteer</td>
             </tr>
         </table>
