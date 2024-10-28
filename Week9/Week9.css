@@ -16,7 +16,7 @@ img {
     width: 60%;
 }
 #skills {
-    border: 2px dashed red;
+    border: 2px purple;
     border-radius: 4px;
     width: 30%;
     padding: 10px;
@@ -47,6 +47,7 @@ div.bodyleft, div.bodycenter {
     border: 2px solid purple;
     margin: auto;
     text-align: center;
+    Clear: both;
 }
 
 h1 {
