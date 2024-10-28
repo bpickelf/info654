@@ -11,14 +11,20 @@ img {
     text-align: center;
 }
 #resume {
-    padding: 10px;
+    padding: 30px;
+    float: center;
+    width: 75%;
+}
+#education {
+    clear: both;
+    padding: 30px;
     float: left;
-    width: 60%;
+    width: 50%;
 }
 #skills {
     border: 2px purple;
     border-radius: 4px;
-    width: 30%;
+    width: 50%;
     padding: 10px;
     margin: 10px;
     float: right;
@@ -39,20 +45,17 @@ div.bodyleft, div.bodycenter {
     width: 70%;
     height: 180px;
 }
-#work {
-    clear: both;
-}
 #footer {
     width: 80%;
     border: 2px solid purple;
     margin: auto;
     text-align: center;
-    Clear: both;
+    clear: both;
 }
 
 h1 {
-    background-color: #57B8FF;
-    border: 8px solid #2176AE;
+    background-color: #9232a6#2b1040;
+    border: 8px solid #2b1040;
     text-align: center;
     border-radius: 10px;
     padding: 10px;
