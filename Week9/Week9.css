@@ -1,4 +1,3 @@
-
 img {
     width: 150px;
     height: 150px;
@@ -25,8 +24,21 @@ img {
     margin: 10px;
     float: right;
 }
-tr:nth-child(even) {
-    background: lightgrey;
+div.bodyleft, div.bodycenter {
+    margin:10px; float:left;
+}
+          
+.bodyleft {
+    padding-left: 10px;
+    border: 2px outset purple;
+    width: 20%;
+    height: 180px;
+}
+.bodycenter {
+    border: 2px outset blue;
+    text-align: center;
+    width: 70%;
+    height: 180px;
 }
 #work {
     clear: both;
@@ -51,9 +63,7 @@ h2 {
 h3 {
     text-decoration: underline;
 }
-table,
-th,
-td {
+table,th,td {
     border-bottom: 1px solid black;
     border-collapse: collapse;
     padding: 15px;
