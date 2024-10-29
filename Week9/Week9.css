@@ -32,17 +32,17 @@ div.bodyleft, div.bodycenter {
 .bodyleft {
     padding-left: 10px;
     border: 2px outset purple;
-    width: 30%;
+    width: 25%;
     height: 400px;
 }
 .bodyleft img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 .bodycenter {
     border: 2px outset blue;
     text-align: center;
-    width: 70%;
+    width: 65%;
     height: 400px;
 }
 #footer {
