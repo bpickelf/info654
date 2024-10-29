@@ -5,8 +5,8 @@
 }
 #resume {
     padding: 30px;
-    float: center;
-    width: 75%;
+    width: 75%; 
+    margin: auto; 
 }
 #education {
     padding: 10px;
@@ -27,10 +27,11 @@
 #skills img {
     max-width: 50%;
     height: auto;
-div.bodyleft, div.bodycenter {
-    margin:10px; float:left;
 }
-          
+.bodyleft, .bodycenter {
+    margin: 10px;
+    float: left;
+}          
 .bodyleft {
     padding-left: 10px;
     border: 2px outset purple;
