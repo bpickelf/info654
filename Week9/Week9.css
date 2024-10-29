@@ -36,13 +36,13 @@ div.bodyleft, div.bodycenter {
     padding-left: 10px;
     border: 2px outset purple;
     width: 20%;
-    height: 180px;
+    height: 200px;
 }
 .bodycenter {
     border: 2px outset blue;
     text-align: center;
     width: 70%;
-    height: 180px;
+    height: 200px;
 }
 #footer {
     width: 80%;
