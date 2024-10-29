@@ -14,7 +14,7 @@
     width: 40%;
 }
 #education img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 #skills {
@@ -25,6 +25,9 @@
     margin: 10px;
     float: right;
 }
+#skills img {
+    max-width: 50%;
+    height: auto;
 div.bodyleft, div.bodycenter {
     margin:10px; float:left;
 }
