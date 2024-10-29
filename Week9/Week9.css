@@ -1,7 +1,6 @@
-img {
-    width: 150px;
-    height: 150px;
-    float: left;
+.responsive-image {
+    max-width: 100%;
+    height: auto;
     margin-right: 30px;
 }
 #header {
