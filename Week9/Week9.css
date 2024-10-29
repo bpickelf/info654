@@ -32,8 +32,8 @@ div.bodyleft, div.bodycenter {
 .bodyleft {
     padding-left: 10px;
     border: 2px outset purple;
-    width: 20%;
-    height: 200px;
+    width: 30%;
+    height: 400px;
 }
 .bodyleft img {
     max-width: 100%;
@@ -43,7 +43,7 @@ div.bodyleft, div.bodycenter {
     border: 2px outset blue;
     text-align: center;
     width: 70%;
-    height: 200px;
+    height: 400px;
 }
 #footer {
     width: 80%;
