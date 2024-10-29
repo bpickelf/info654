@@ -11,7 +11,7 @@
 #education {
     padding: 30px;
     float: left;
-    width: 50%;
+    width: 40%;
 }
 #education img {
     max-width: 100%;
@@ -20,7 +20,7 @@
 #skills {
     border: 2px purple;
     border-radius: 4px;
-    width: 50%;
+    width: 40%;
     padding: 10px;
     margin: 10px;
     float: right;
