@@ -8,25 +8,18 @@
   
   <body>
     <h1>My tip Calculator</h1>
-      <p>
-      <form>
           <label for="cost">Cost of Meal</label>
-      <input id="cost" type="number" value="Enter Cost Here">                 <! this is the box where you can type in the cost of the meal>
-          <br><br>
-        <label for="percentage">Tip Percentage</label>
-      <input id="percentage" type="number" value="Enter Percentage Here">                 <! this is the box where you can type in the cost of the meal>
-          <br><br>
-   </form>
-      </p>
-    <h2 id="demo"></h2>                                                                         <! this is where the phrase "You entered this value: ... is will appear> 
-      <p><button type="calculate tip amount" onclick="calculateTip()">Enter</button>            <! this is the button that will call the javascript fuction>
-      </p>
+          <input id="cost" type="number" step=".01" title="Enter Cost Here"> <br><br>                <! this is the box where you can type in the cost of the meal>
+          <label for="percentage">Tip Percentage</label>
+          <input id="percentage" type="number" step=".01" title="Enter Percentage Here"><br><br>                  <! this is the box where you can type in the cost of the meal>
+            <button type="button" onclick="calculateTip()">Calculate Tip Amount</button>                            <! this is the button that will call the javascript fuction it will say "Calculate Tip Amount>
+      <h2 id="demo"></h2>                                                                             <! this is where the phrase "You entered this value: ... is will appear> 
     
     <script>                                                                                    <! this is the javascript function. >
      FUNCTION calculateTip() {
           LET x = document.getElementById("cost").value;                            <!declare your variables>
           LET y =document.getElementById("percentage").value;
-          LET text=""
+          LET text="";
           LET tip = (x*y)/100;                                                       <! declare your variables and calculate the tip using the first two variables>
           text= "tip amount: $" + tip.toFixed(2);
           document.document.getElementById("demo").innerHTML = text;
