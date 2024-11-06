@@ -7,14 +7,18 @@
     </head>
   
   <body>
-    <form>
+      <p><form>
       <input type="number" id="html" name="numberbox" value="Some random number">
         <label for="numberbox">Some Random number</label>
-      <input id="Enter" type="button" value="Enter" onclick="doFunction();" />
-   </form>
+   </form></p>
+    
+      <p><button onclick="myFunction()">Enter</button>
+      </p>
   // this is the DOM  
-    <Script>
-     
-    </Script>
+    <script>
+    function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
   </body>
 </html>
