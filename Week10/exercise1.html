@@ -10,14 +10,14 @@
       <p>
       <form>
           <label for="number">Some Random Number</label>
-      <input id="number" id="html" name="numberbox" value="Enter number Here"> <! this is the box where you can type in a number>
+      <input id="number" id="html" name="numberbox" value="Enter number Here">                 <! this is the box where you can type in a number>
           <br><br>
    </form>
       </p>
-    <h2 id="demo"></h2>  <! this is where the ID is declared>
-      <p><button type="button" onclick="myFunction()">Enter</button>  <! this is the enter button>
+    <h2 id="demo"></h2>                                                                         <! this is where the phrase "You entered this value: ... is will appear>
+      <p><button type="button" onclick="myFunction()">Enter</button>                            <! this is the enter button>
       </p>
-    <script>
+    <script>                                                                                    <!Javasccript>
     function myFunction() {
         let x = document.getElementById("number").value;
         document.getElementById("demo").innerHTML = "You Entered this value: " + x;    
