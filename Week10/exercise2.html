@@ -17,10 +17,10 @@
     
     <script>                                                                                    <! this is the javascript function. >
      function calculateTip() {
-          let x = document.getElementById("cost").value;                            <!declare your variables>
-          let y =document.getElementById("percentage").value;
-          let text="";
-          let tip = (x*y)/100;                                                       <! declare your variables and calculate the tip using the first two variables>
+        let x = parseFloat(document.getElementById("cost").value);                                <!declare your variables>
+        let y = parseFloat(document.getElementById("percentage").value);
+        let text="";
+        let tip = (x*y)/100;                                                       <! declare your variables and calculate the tip using the first two variables>
           text= "tip amount: $" + tip.toFixed(2);
           document.getElementById("demo").innerHTML = text;
       }
