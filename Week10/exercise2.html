@@ -24,10 +24,10 @@
     
     <script>                                                                                    <! this is the javascript section>
      FUNCTION calculateTip() {
-          LET y = document.getElementById("cost").value;
+          LET x = document.getElementById("cost").value;                            <!declare your variables>
           LET y =document.getElementById("tipamt").value;
           LET text=""
-          LET tip = (x*y)/100;
+          LET tip = (x*y)/100;                                                       <! declare your variables and calculate the tip using the first two variables>
           text= "tip amount: $" + tip.toFixed(2);
           document.document.getElementById("demo").innerHTML = text;
       }
