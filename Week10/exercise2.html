@@ -16,11 +16,11 @@
       <h2 id="demo"></h2>                                                                             <! this is where the phrase "You entered this value: ... is will appear> 
     
     <script>                                                                                    <! this is the javascript function. >
-     FUNCTION calculateTip() {
-          LET x = document.getElementById("cost").value;                            <!declare your variables>
-          LET y =document.getElementById("percentage").value;
-          LET text="";
-          LET tip = (x*y)/100;                                                       <! declare your variables and calculate the tip using the first two variables>
+     function calculateTip() {
+          let x = document.getElementById("cost").value;                            <!declare your variables>
+          let y =document.getElementById("percentage").value;
+          let text="";
+          let tip = (x*y)/100;                                                       <! declare your variables and calculate the tip using the first two variables>
           text= "tip amount: $" + tip.toFixed(2);
           document.document.getElementById("demo").innerHTML = text;
       }
