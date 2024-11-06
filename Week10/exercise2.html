@@ -18,19 +18,19 @@
           <br><br>
    </form>
       </p>
-    <h2 id="tipAmount"></h2>                                                                         <! this is where the phrase "You entered this value: ... is will appear>
-    <h2 id="totalAmount"></h2>  
+    <h2 id="demo"></h2>                                                                         <! this is where the phrase "You entered this value: ... is will appear> 
       <p><button type="calculate tip amount" onclick="myFunction()">Enter</button>                            <! this is the button that will trigger the javascript fuction>
       </p>
     
     <script>                                                                                    <! this is the javascript section>
-      function calculateTip(cost, percentage) {
-  const tipAmount = (cost * percentage) / 100;
-  const totalAmount = cost + tipAmount;
-  return {
-    tipAmount: tipAmount,
-    totalAmount: totalAmount
-  };
+     FUNCTION calculateTip() {
+          LET y = document.getElementById("cost").value;
+          LET y =document.getElementById("tipamt").value;
+          LET text=""
+          LET tip = (x*y)/100;
+          text= "tip amount: $" + tip.toFixed(2);
+          document.document.getElementById("demo").innerHTML = text;
+      }
 </script>
   </body>
 </html>
