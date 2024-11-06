@@ -23,15 +23,13 @@
       </p>
     
     <script>                                                                                    <! this is the javascript section>
-      function calculateTip(billAmount, tipPercentage) {
-  const tipAmount = (billAmount * tipPercentage) / 100;
-  const totalAmount = billAmount + tipAmount;
-
+      function calculateTip(cost, percentage) {
+  const tipAmount = (cost * percentage) / 100;
+  const totalAmount = cost + tipAmount;
   return {
     tipAmount: tipAmount,
     totalAmount: totalAmount
   };
-}
 </script>
   </body>
 </html>
