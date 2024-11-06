@@ -7,17 +7,20 @@
     </head>
   
   <body>
-      <p><form>
-      <input type="number" id="html" name="numberbox" value="Some random number">
-        <label for="numberbox">Some Random number</label>
-   </form></p>
-    
-      <p><button onclick="myFunction()">Enter</button>
+      <p>
+      <form>
+          <label for="number">Some Random Number</label>
+      <input id="number" id="html" name="numberbox" value="Some random number">
+          <br><br>
+   </form>
       </p>
-  // this is the DOM  
+    <h2 id="demo"></h2>
+      <p><button type="button" onclick="myFunction()">Enter</button>
+      </p>
     <script>
     function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello World";
+        let x = document.getElementById("number").value;
+        document.getElementById("demo").innerHTML = "You Entered this value: " + x;    
 }
 </script>
   </body>
