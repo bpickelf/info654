@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Week 9: Exercise 1: tip calculator </title>
+    </head>
+  
+  <body>
+    <h1>My tip Calculator</h1>
+      <p>
+      <form>
+          <label for="cost">Cost of Meal</label>
+      <input id="cost" type="number" value="Enter Cost Here">                 <! this is the box where you can type in the cost of the meal>
+          <br><br>
+        <label for="percentage">Tip Percentage</label>
+      <input id="percentage" type="number" value="Enter Percentage Here">                 <! this is the box where you can type in the cost of the meal>
+          <br><br>
+   </form>
+      </p>
+    <h2 id="Tip"></h2>                                                                         <! this is where the phrase "You entered this value: ... is will appear>
+      <p><button type="calculate tip amount" onclick="myFunction()">Enter</button>                            <! this is the button that will trigger the javascript fuction>
+      </p>
+    
+    <script>                                                                                    <! this is the javascript section>
+      function calculateTip(billAmount, tipPercentage) {
+  const tipAmount = (billAmount * tipPercentage) / 100;
+  const totalAmount = billAmount + tipAmount;
+
+  return {
+    tipAmount: tipAmount,
+    totalAmount: totalAmount
+  };
+}
+</script>
+  </body>
+</html>
